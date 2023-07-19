@@ -8,7 +8,7 @@ namespace HelloApp
 {
     internal class Person
     {
-        public in Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
 
