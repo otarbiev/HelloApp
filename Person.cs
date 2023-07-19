@@ -22,6 +22,11 @@ namespace HelloApp
             Console.WriteLine($"My name is {Name}");
         }
 
+        public void Info()
+        {
+            Console.Writeline($"Name: {Name}, Age: {Age} y.o.");
+        }
+
 
 
     }
