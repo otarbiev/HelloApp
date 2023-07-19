@@ -1,8 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
 using HelloApp;
-
-Console.WriteLine("Hello, World!");
-Console.WriteLine("Changes in \"new-feature\" branch");
 
 Console.WriteLine("Введите число чтобы возвести его в куб: ");
 int num = Convert.ToInt32(Console.ReadLine());
