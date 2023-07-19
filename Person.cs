@@ -8,6 +8,7 @@ namespace HelloApp
 {
     internal class Person
     {
+        public in Id { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
 
@@ -24,7 +25,12 @@ namespace HelloApp
 
         public void Info()
         {
-            Console.Writeline($"Name: {Name}, Age: {Age} y.o.");
+            Console.WriteLine($"Name: {Name}, Age: {Age} y.o.");
+        }
+
+        public void Run()
+        {
+            Console.WriteLine($"{Id}.{Name} is running!");
         }
 
 
