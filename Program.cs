@@ -11,4 +11,5 @@ Person oleg = new Person("Oleg", 55);
 
 oleg.Info();
 
-ivan.Run();
+//ivan.Run удалён
+Console.WriteLine("Конфликт стр в мэйн ветке");
